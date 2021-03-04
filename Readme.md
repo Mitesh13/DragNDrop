@@ -9,5 +9,5 @@ Drag events are used for drag and drop. Event delegation is used to minimize the
 
 PS- works only on devices with drag and drop supported.
 
-#Live Demo
+# Live Demo
 https://mitesh13.github.io/DragNDrop/
