@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DragNDrop</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="box">
-        <p class="bg-blue">Task</p>
-        <div class="items" >
-            <div class="item" draggable="true">Item #1</div>
-            <div class="item" draggable="true">Item #2</div>
-            <div class="item" draggable="true">Item #3</div>
-            <div class="item" draggable="true">Item #4</div>
-            <div class="item" draggable="true">Item #5</div>
-            <div class="item" draggable="true">Item #6</div>
-            <div class="item" draggable="true">Item #7</div>
-            <div class="item" draggable="true">Item #8</div>
-            <div class="item" draggable="true">Item #9</div>
-            <div class="item" draggable="true">Item #10</div>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="">
+      <input type="text" id="add" />
+      <input type="button" value="+" id="addBtn" />
+    </form>
+    <div class="box-container">
+      <div class="box">
+        <p class="bg-blue">New</p>
+        <div class="items">
+          <!-- <div class="item" draggable="true">Item #1</div>
+          <div class="item" draggable="true">Item #2</div>
+          <div class="item" draggable="true">Item #3</div>
+          <div class="item" draggable="true">Item #4</div>
+          <div class="item" draggable="true">Item #5</div>
+          <div class="item" draggable="true">Item #6</div>
+          <div class="item" draggable="true">Item #7</div>
+          <div class="item" draggable="true">Item #8</div>
+          <div class="item" draggable="true">Item #9</div>
+          <div class="item" draggable="true">Item #10</div> -->
         </div>
-    </div>
-
-    <div class="box">
+      </div>
+      <div class="box">
         <p class="bg-orange">Going</p>
         <div class="items"></div>
-    </div>
-    
-    <div class="box">
+      </div>
+      <div class="box">
         <p class="bg-green">Done</p>
         <div class="items"></div>
+      </div>
     </div>
-    
+
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
