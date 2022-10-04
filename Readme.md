@@ -1,7 +1,7 @@
 # DragNDrop
 List Drag and Drop project using HTML, CSS &amp; Vanilla JS 
 
-Project is initialized with prespecified list items & 3 list sections.
+Project is initialized with 3 list sections.
 
 User can drag and drop items within list sections and other list sections also.
 
